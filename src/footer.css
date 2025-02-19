@@ -1,0 +1,18 @@
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #707070;
+  height: 50vh;
+  width: 100vw;
+  clip-path: polygon(0 100%, 100% 100%, 100% 0, 0 40%);
+}
+
+footer .footer-text {
+  justify-content: center;
+  text-align: center;
+  line-height: 1.12rem;
+  font-size: 0.75rem;
+  color: #FFFFFF;
+  padding-top: 6.25rem;
+}

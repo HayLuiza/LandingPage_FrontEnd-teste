@@ -1,0 +1,124 @@
+@media screen and (max-width: 1300px) {
+  .sections .helpAlgorithm {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sections {
+    width: 80vw;
+  }
+  
+  .sections .selectProducts .selectProducts__allProducts {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+
+  
+  header {
+    clip-path: polygon(0 75%, 100% 100%, 100% 0, 0 0); 
+  }
+  
+  .sections {
+    width: 90vw;
+  }
+}
+
+@media screen and (max-width: 800px) {
+
+  header .header-content .header-nav {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem; 
+  }
+
+}
+
+@media screen and (max-width: 750px) {
+  header {
+    clip-path: polygon(0 82%, 100% 100%, 100% 0, 0 0); 
+  }
+
+  .sections .selectProducts .selectProducts__allProducts {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .sections .share .share-form__all-inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    width: 400px;
+  }
+
+  .sections .share .share-form__all-inputs input {
+    width: 500px;
+    height: 28px;
+    margin-top: 5px;
+  }
+
+}
+
+@media screen and (max-width: 570px) {
+  header .header-content .header-text {
+    justify-items: start;
+    text-align: start;
+    padding: 60px 30px 0 20px; 
+  }
+
+  header .header-content .header-text h1 {
+    text-align: start;
+    padding-bottom: 0;
+  }
+  
+  header {
+    clip-path: polygon(0 95%, 100% 100%, 100% 0, 0 0); 
+  }
+
+  .sections .share .share-form__all-inputs input {
+    width: 400px;
+  }
+
+  footer {
+    height: 35vh;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .sections .selectProducts .selectProducts__allProducts {
+    grid-template-columns: 1fr;
+  }
+
+  .sections .selectProducts .selectProducts-product {
+    display: grid;
+    justify-self: start;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  .sections .selectProducts .selectProducts-product .box-teste{
+    border: 1px solid #888888;
+    width: 11rem;
+    height: 8rem;
+  }
+
+  .sections .selectProducts .selectProducts-product .selectProducts-product__text {
+    margin: 0;
+  }
+
+  .sections .selectProducts .selectProducts-product .selectProducts-product__text .product-descrition {
+    display: none;
+  }
+
+  .sections .selectProducts .selectProducts-product .selectProducts-product__button {
+    width: 170px;
+    font-size: 14px;
+  }
+
+  .sections .share .share-form__all-inputs input {
+    width: 350px;
+  }
+}
+
